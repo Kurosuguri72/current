@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ページタイトル</title>
+    <!--CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <!--JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <style type="text/css">
+      /*ここに調整CSS記述*/
+      .jumbotron {
+        background:url(free_forest.jpg) center no-repeat;
+        background-size: cover;
+      }
+      .jumbotron .container{
+        background-color: rgba(255,255,255,0.4);
+      }
+    .o-2column h2 {text-align: center; font-size: 28px; margin-bottom: 10px;}
+    .o-3column h2 {text-align: center; font-size: 28px; margin-bottom: 10px;}
+    .o-3column p { margin-top: 10px;}
+    .o-3column .col-sm-4 { padding: 0 20px; background:rgba(128,128,0,0.6)}
+    .o-2column .col-sm-6 { padding: 0 20px; background:rgba(0,128,128,0.6)}
+    .headerNavBtn{
+    text-align:center;
+    height:3em;
+    line-height:3em;
+    color:#5F5F5F;
+    font-size:16px;
+}
+.headerNavBtn:hover{
+    background:#EEE;
+}
+.copyright{
+    text-align:center;
+    margin:40px auto;
+    display:block;
+}
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <!--　▼ ジャンボトロン　 -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1>Bootstrapポートフォリオ</h1>
+          <p>Bootstrapを使ったサンプルWebページです。</p>
+        </div>
+      </div>
+    </header>
+    <!--headerNav-->
+<div class="headerNav">
+  <div class="container">
+      <div class="row headerNavBox">
+          <a href="#">
+              <div class="col-xs-6 col-sm-3 headerNavBtn">
+                  トップページ
+              </div>
+          </a>
+          <a href="#">
+              <div class="col-xs-6 col-sm-3 headerNavBtn">
+                  メニュー1
+              </div>
+          </a>
+          <a href="#">
+              <div class="col-xs-6 col-sm-3 headerNavBtn">
+                  メニュー2
+              </div>
+          </a>
+          <a href="#">
+              <div class="col-xs-6 col-sm-3 headerNavBtn">
+                  メニュー3
+              </div>
+          </a>
+      </div>
+  </div>
+</div>
+<!--//headerNav-->
+
+    <div><h2 class="text-center">コンテンツタイトル</h2></div>
+    <!-- ・Bootstrapを使う -->
+    <!-- ・グリッドレイアウトを用いて、レシポンシブなWebページにする -->
+
+    <div class="container">
+      <div class="row o-3column">
+        <div class="col-sm-4">
+          <h2>カラム１</h2>
+          あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。
+        </div>
+         <div class="col-sm-4">
+          <h2>カラム２</h2>
+          あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。
+        </div>
+        <div class="col-sm-4">
+          <h2>カラム３</h2>
+          あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row o-2column">
+        <div class="col-sm-6">
+          <h2>カラム４</h2>
+          あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。
+        </div>
+         <div class="col-sm-6">
+          <h2>カラム５</h2>
+          あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。
+        </div>
+      </div>
+    </div>
+
+<!--footer-->
+<div class="footer">
+  <div class="container">
+      <span class="copyright">
+          &copy; Copyright Hogehoge co., ltd. All Rights Reserved.
+      </span>
+  </div>
+</div>
+<!--//footer-->
+  </body>
+</html>
